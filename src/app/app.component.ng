@@ -72,6 +72,8 @@
   } @else {
   <p>Loading todo...</p>
   }
+  
+  <br /><br/><a href="https://github.com/brandonroberts/analog-ng">GitHub</a>
 </template>
 
 <style>
