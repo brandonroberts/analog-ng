@@ -1,0 +1,15 @@
+<script lang="ts">
+  onInit(() => {
+    console.log('anotherOne init');
+  });
+</script>
+
+<template>
+  <h4>Another One!!</h4>
+</template>
+
+<style>
+  h1 {
+    color: green;
+  }
+</style>

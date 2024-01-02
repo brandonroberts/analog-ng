@@ -6,6 +6,9 @@ import analog from '@analogjs/platform';
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   publicDir: 'src/assets',
+  optimizeDeps:{ 
+    include: ['@angular/router']
+  },
   build: {
     target: ['es2020'],
   },
